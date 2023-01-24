@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="encrip.js"></script>
+
+</head>
+
+<body>
+    <div class="logo"><img src="imagen/Vector-removebg-preview.png"></img></div>
+    <h1>Encriptador Alura Challenge Primer desafio</h1>
+    
+    <div display: flex align-items: flex-end>
+        <div class="columna">
+            <h4>Texto a encriptar </h4>
+            <div class="input-group input-group-icon">
+                <textarea name="textoNormal" id="txt1" spellcheck="false"
+                    placeholder="Pegue el texto a encriptar"></textarea>
+                <div class="input-icon"><i class="fa fa-unlock-alt"></i></div>
+            </div>
+            <div style="text-align: right">
+                <button id="btnEncriptar" class="btn">Encriptar</button>
+            </div>
+            <div class="" id="notificacion">
+                <p id="info">* Solo letras minúsculas y sin acento</p>
+            </div>
+        </div>
+
+
+        <div class="columna1">
+            <h4>Texto encriptado </h4>
+            <div class="input-group input-group-icon">
+                <textarea name="textoEncriptado" id="txt2" spellcheck="false"
+                    placeholder="Pegue aquí el texto para desencriptar"></textarea>
+                <div class="input-icon"><i class="fa fa-lock"></i></div>
+            </div>
+
+
+            <div style="text-align: left">
+                <button class="btn" id="btnDesencriptar">Desencriptar</button>
+                <button class="btn" id="btnCopiar">copiar</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <footer> Desarrollado por: <strong>Yader Lara</strong> © 2023
+            </footer>
+    </div>
+</body>
+
+</html>
